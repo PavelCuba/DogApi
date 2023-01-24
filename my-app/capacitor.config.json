@@ -1,0 +1,11 @@
+{
+  "appId": "cuba.thedogapi",
+  "appName": "TheDogApi",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "appId": "com.TheDogApiCuba.app",
+  "appName": "TheDogApi",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+  
+}

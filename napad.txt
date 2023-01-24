@@ -1,0 +1,81 @@
+
+
+<!-- <nav class="menu1">
+    <button class:active={currentPage === 0} on:click={() => handlePageChange(0)}>
+        <img src="./home-page.svg" alt="Home Page"> 
+        <span class="active-line"></span>
+    </button>
+    <button class:active={currentPage === 1} on:click={() => handlePageChange(1)}>
+        <img src="./Like.svg" alt="Favorites"> 
+        <span class="active-line"></span>
+    </button>
+    <button class:active={currentPage === 2} on:click={() => handlePageChange(2)}>
+        <img src="./Collection.svg" alt="Help">
+        <span class="active-line"></span> 
+    </button>
+    <button class:active={currentPage === 3} on:click={() => handlePageChange(3)}>
+        <img src="./Settings.svg" alt="Help"> 
+        <span class="active-line"></span>
+    </button>
+</nav> -->
+
+<!-- <div class="page-container">
+    {#if currentPageIndex === 0}
+        <RightFly>
+            <MainPage />
+        </RightFly>
+    {:else if currentPageIndex === 1}
+        {#if lastPageIndex === 0}
+            <RightFly>
+                <FavouritesPage />
+            </RightFly>
+        {:else}
+            <LeftFly>
+                <FavouritesPage />
+            </LeftFly>
+        {/if}
+    {:else if currentPageIndex === 2}
+        {#if lastPageIndex === 1}
+            <LeftFly>
+                <CollectionPage />
+            </LeftFly>
+        {:else}
+            <RightFly>
+                <CollectionPage />
+            </RightFly>
+        {/if}
+    {:else if currentPageIndex === 3}
+            <RightFly>
+                <SettingsPage />
+            </RightFly>
+    {/if}
+</div>
+
+let currentPageIndex = 0;
+let lastPageIndex = 0;
+let nextIndex = 0;
+
+    const pages = [
+        {
+            component: MainPage,
+            name: 'main'
+        },
+        {
+            component: FavouritesPage,
+            name: 'favorites'
+        },
+        {
+            component: CollectionPage,
+            name: 'collection'
+        },
+        {
+            component: SettingsPage,
+            name: 'settings'
+        }
+    ];
+
+    function handlePageChange(pageIndex) {
+        lastPageIndex = currentPageIndex;
+        currentPageIndex = pageIndex;
+      
+    } -->
